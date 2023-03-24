@@ -1,0 +1,23 @@
+Dissable automatic change time on windows
+Install Delphi7SE
+Debugger options - Unmark stop on delphi exceptions
+
+Install Tntunicode - Copy folders delphi,source,design to lib and execute delphi/d7/TntUnicodeVcl_D70.dpk compile and install, copy all source files to lib
+Install Absdatabase
+Install Bmdthread - execute BMThreadDsnD7.dpk
+Install Embeddedwebbrowser - execute EmbeddedWebBrowser_D7.dpk copy Source and Packages folder content to lib and compile
+Install Image32 - execute GR32_DSGN_D7.dpk
+Install Pngimage - Component - Install Component - Lib/Pngimage.pas
+Install RARcomponent - execute RARComponent_d2009.dpk
+Install SevenzipVLC - Component - Install Component - SevenzipVLC.pas - Copy BTModule 7za.dll 7za.res folder content to lib and compile
+Install Explorerdrop - Component - Install Component - ExplorerDrop.pas
+Install XPMenu - Component- Install Component- Lib/Xpmenu.pas
+Install Zipforge
+Install Cooltrayicon D6Plus
+Install Eurekalog and load his config
+Install wtbcomps DX
+Install VirtualTreeview File open - Packages\Delphi 7\VirtualTrees.bpg, Doubleclick VirtualTreesD.dpk Compile & Install, Go to "Tools > Environment Options > Library > Library Path > [...]" Browse to the "Source" folder of VirtualTreeView, press "OK", "Add", "OK", "OK"
+//Install RichEditURL REMOVED CHAGED BY unrxlib275u1012
+Install Indy 9 execute dclIndy70.dpk
+Install rxlib DclRxCtl7.dpk
+

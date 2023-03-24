@@ -1,0 +1,310 @@
+<rdat name="Real-NDS-APPs-DOCs" group="The Real Team" timestamp="1033866682">
+  <set name="Advance.Wars.Dual.Strike.Strategy.Guide.NDS.(iGN.com).Retail.eBook-MAGBUSTERS" smlname="mb-awds_ndsa" country="USA" group="MAGBUSTERS">
+    <file name="file_id.diz" crc="BCCCFB93" size="199"/>
+    <file name="mb-awds_nds.jpg" crc="56028DAD" size="48026"/>
+    <file name="mb-awds_nds.nfo" crc="4FE7695B" size="8058"/>
+    <file name="mb-awds_NDS.rar" crc="A318416F" size="494063"/>
+    <file name="mb-awds_nds.sfv" crc="FEFE56E3" size="28" bin="1"/>
+  </set>
+  <set name="Bakugan.Battle.Brawlers.Official.Game.Guide.XBOX360.NDS.PS2.PS3-Unleashed" smlname="unl-bbbg" country="USA" group="Unleashed">
+    <file name="Bakugan Battle Brawlers Official Game Guide - Unleashed.pdf" crc="F1C44B70" size="29389113"/>
+    <file name="unl-bbbg.sfv" crc="E12E1AEA" size="92"/>
+    <file name="Unleashed.nfo" crc="93C0E539" size="2987"/>
+  </set>
+  <set name="Daigasso_Band_Brothers_DX_Speaker_Channel_WiiShop_READNFO_JPN_Wii-iND" smlname="ind-dxsc" country="Japan" group="Independent">
+    <file name="ind-dxsc.nfo" crc="2B0E2F5C" size="1650"/>
+    <file name="ind-dxsc.sfv" crc="36A44A1C" size="69"/>
+    <file name="ind-dxsc.wad" crc="F5924B94" size="13204480"/>
+  </set>
+  <set name="DS_Header_Info_v0.1_Batched_NDS-iND" smlname="ind-dshi" country="International" group="Independent">
+    <file name="dshi.exe" crc="6D237E18" size="7680"/>
+    <file name="file_id.DIZ" crc="3B61C497" size="821"/>
+    <file name="ind-dshi.bat" crc="FD11999F" size="560"/>
+    <file name="ind-dshi.nfo" crc="B371A229" size="5104"/>
+  </set>
+  <set name="DS_Header_Info_v0.1_DS_INTERNAL-NOGRP" smlname="dshiv01" country="International" group="Independent">
+    <file name="dshi.exe" crc="6D237E18" size="7680"/>
+    <file name="dshiv01.nfo" crc="DE5DFE1B" size="404"/>
+    <file name="file_id.diz" crc="CEB93964" size="109"/>
+  </set>
+  <set name="DS_Header_Info_v0.2_DS_INTERNAL-NOGRP" smlname="ind-hv02" country="International" group="Independent">
+    <file name="dshi.c" crc="4A295476" size="4240"/>
+    <file name="dshi.exe" crc="81B7B252" size="8704"/>
+    <file name="dshi.h" crc="EAA40588" size="7462"/>
+    <file name="file_id.diz" crc="8497499A" size="109"/>
+    <file name="ind-hv02.nfo" crc="1D1F8A4A" size="997"/>
+    <file name="makefile.bat" crc="E2733FB5" size="938"/>
+  </set>
+  <set name="eNDryptS_Advanced_v1.1_NDS-iND" smlname="ind-ndse11" country="International" group="Independent">
+    <file name="eNDryptS Advanced.exe" crc="8841948D" size="135589"/>
+    <file name="eNDryptS Advanced.txt" crc="1209C609" size="1117"/>
+    <file name="ind-ndse11.nfo" crc="332D370F" size="2718"/>
+    <file name="PatchEngine.dat" crc="DF585D7D" size="816262"/>
+  </set>
+  <set name="eNDryptS_Advanced_v1.2_NDS-iND" smlname="ind-ndse12" country="International" group="Independent">
+    <file name="ind-ndse12.jpg" crc="69AD9A8A" size="275969"/>
+    <file name="ind-ndse12.nfo" crc="BE761778" size="3678"/>
+    <file name="ind-ndse12.zip" crc="0671890F" size="808197"/>
+  </set>
+  <set name="Ensata_1_4D_CRACKED-EXPERiENCE" smlname="exp-ens14d" country="International" group="Independent">
+    <file name="default_skin.bmp" crc="9E36FF12" size="76854"/>
+    <file name="ensata.chm" crc="20E790B2" size="147033"/>
+    <file name="ensata.exe" crc="E7A56D83" size="1171456"/>
+    <file name="ensata_jp.chm" crc="F238AB76" size="164129"/>
+    <file name="est_is_chara.dll" crc="CAC83E22" size="159744"/>
+    <file name="est_nitro_viewer.dll" crc="4A5C06CD" size="159744"/>
+    <file name="exp-ens14d.nfo" crc="10327913" size="4498"/>
+    <file name="exp-ens14d.sfv" crc="BA913C1B" size="25" bin="1"/>
+    <file name="Readme.txt" crc="36564EB1" size="3064"/>
+    <file name="Readme_jp.txt" crc="5135C7F4" size="3034"/>
+    <file name="StrRes_eng.dll" crc="69AEE031" size="159744"/>
+    <file name="uimain.dll" crc="5872B286" size="890368"/>
+    <file name="unreg.exe" crc="5EDA318E" size="235520"/>
+  </set>
+  <set name="GBA_Cart_Dumper_for_M3CF_NDS-RPF" smlname="rpf-m3cf" country="International" group="RPF">
+    <file name="FILE_ID.DIZ" crc="D7ADA855" size="326"/>
+    <file name="RPF-M3CF.NDS" crc="5FB0C453" size="283708" bin="1"/>
+    <file name="RPF-M3CF.NFO" crc="CA6C76FD" size="2706"/>
+  </set>
+  <set name="Golden.Sun.Dark.Dawn.Official.Game.Guide.NDS-Unleashed" smlname="unl-gsdg" country="" group="Unleashed">
+    <file name="Golden Sun Dark Dawn Official Game Guide - Unleashed.pdf" crc="874D4B65" size="38317239"/>
+    <file name="Unleashed.nfo" crc="62C11F5E" size="3333"/>
+    <file name="unl-gsdg.nfo" crc="79C21DB5" size="2704"/>
+    <file name="unl-gsdg.sfv" crc="16E15693" size="161"/>
+  </set>
+  <set name="LEGO.Indiana.Jones.Official.Game.Guide.XBOX360.PS3.PS2.PSP.NDS.WII.PC-Unleashed" smlname="unl-lijg" country="USA" group="Unleashed">
+    <file name="LEGO Indiana Jones Official Game Guide - Unleashed.pdf" crc="94909DBB" size="100986532"/>
+    <file name="unleashed.nfo" crc="3361AFAF" size="2384"/>
+    <file name="unl-lijg.nfo" crc="3361AFAF" size="2384"/>
+    <file name="unl-lijg.sfv" crc="36E4C860" size="391" bin="1"/>
+  </set>
+  <set name="LoadMe_v1.0-WRG" smlname="wrg-loadme" country="International" group="Wolf'n Road Group">
+    <file name="LoadMe.exe" crc="1E18C52E" size="211456"/>
+    <file name="loadme_chs.zip" crc="3A0DA447" size="205896"/>
+    <file name="wrg-loadme.nfo" crc="E5456702" size="9932"/>
+  </set>
+  <set name="MAGICKEY_Tools_V1.0_NDS-DMT" smlname="dmt-mkt1" country="International" group="Independent">
+    <file name="dmt-mkt1.nfo" crc="614DFAB6" size="6743"/>
+    <file name="MAGICKEY Tools V1.0.gba" crc="64866C7D" size="9412" bin="1"/>
+  </set>
+  <set name="MAGICKEY_Tools_V2.0_NDS-DMT" smlname="dmt-mkt2" country="International" group="Independent">
+    <file name="dmt-mkt2.nfo" crc="354D7052" size="5508"/>
+    <file name="MAGICKEY FixDump.exe" crc="93EA9BA8" size="32768"/>
+    <file name="MAGICKEY Tools V2.0.gba" crc="64866C7D" size="9412" bin="1"/>
+    <file name="NDSHeader.exe" crc="D76B803D" size="907776"/>
+  </set>
+  <set name="Maximum_Overload_v1.2_CRACKED_NDS-TRIFORCE" smlname="trf-momp" country="International" group="TRIFORCE">
+    <file name="_BOOT_MP.NDS" crc="D375B837" size="103936" bin="1"/>
+    <file name="file_id.diz" crc="BDCF3190" size="541"/>
+    <file name="PATCH.EXE" crc="66A5C7B4" size="188416"/>
+    <file name="TRF-MOMP.NFO" crc="C39F8AFA" size="5538"/>
+  </set>
+  <set name="MegaMan.Starforce.2.Official.Game.Guide.NDS-Unleashed" smlname="unl-mms2" country="USA" group="Unleashed">
+    <file name="MegaMan Starforce 2 Official Game Guide - Unleashed.pdf" crc="F4348A64" size="16539255"/>
+    <file name="unleashed.nfo" crc="36210360" size="2378"/>
+    <file name="unl-mms2.nfo" crc="36210360" size="2378"/>
+    <file name="unl-mms2.sfv" crc="308C12B7" size="46" bin="1"/>
+  </set>
+  <set name="Metrowerks.CodeWarrior.for.Nintendo.DS.v2.0-EXPERiENCE" smlname="exp-cwds" country="International" group="Independent">
+    <file name="C-C++_Compiler_Transition_Notes.pdf" crc="D3D00A1B" size="53268"/>
+    <file name="C-C++_Compiler_Transition_Notes_Jp.pdf" crc="7CD98104" size="68537"/>
+    <file name="CW_NINTENDO_DS_R2.0.exe" crc="F408470E" size="83128560"/>
+    <file name="Developer_Notes - NITRO_Tools.jp.txt" crc="DAAE28AA" size="61107"/>
+    <file name="Developer_Notes - NITRO_Tools.txt" crc="73D483F8" size="61934"/>
+    <file name="exp-cwds.nfo" crc="1CFC5311" size="5051"/>
+    <file name="exp-cwds.sfv" crc="5A7B75A1" size="599" bin="1"/>
+    <file name="license.dat" crc="3D5CB6CA" size="587"/>
+  </set>
+  <set name="MySims.Official.Game.Guide.WII.NDS-Unleashed" smlname="unl-myss" country="USA" group="Unleashed">
+    <file name="MySims Wii NDS Official Game Guide - Unleashed.pdf" crc="8A475A2B" size="13291938"/>
+    <file name="unleashed.nfo" crc="D86DD351" size="2376"/>
+    <file name="unl-myss.nfo" crc="D86DD351" size="2376"/>
+    <file name="unl-myss.sfv" crc="A0BA3F62" size="46" bin="1"/>
+  </set>
+  <set name="Nanostray_Nanocode_Generator-LEGACY" smlname="lgc-nng" country="International" group="LEGACY">
+    <file name="file_id.diz" crc="3561418B" size="371"/>
+    <file name="getopt.cpp" crc="B681F521" size="4048"/>
+    <file name="getopt.h" crc="04A4683B" size="248"/>
+    <file name="lgc-nng.nfo" crc="3A498716" size="5448"/>
+    <file name="nanocode.cpp" crc="D34416A9" size="7395"/>
+    <file name="nanocode.exe" crc="A5DFD35D" size="49152"/>
+    <file name="StdAfx.cpp" crc="EDE21B47" size="295"/>
+    <file name="StdAfx.h" crc="5F4E8547" size="667"/>
+    <file name="ty.nfo" crc="6EF81322" size="1339"/>
+  </set>
+  <set name="Naruto.Path.of.the.Ninja.2.Official.Game.Guide.NDS-Unleashed" smlname="unl-npn2" country="USA" group="Unleashed">
+    <file name="Naruto - Path of Ninja 2 Official Game Guide - Unleashed.pdf" crc="01694F45" size="106528228"/>
+    <file name="unleashed.nfo" crc="1DFE80EB" size="2392"/>
+    <file name="unl-npn2.nfo" crc="1DFE80EB" size="2392"/>
+    <file name="unl-npn2.sfv" crc="8BEB5A25" size="460" bin="1"/>
+  </set>
+  <set name="NDS_Backup_Tools_NDS-iND" smlname="ind-ndsbt" country="" group="Independent">
+    <file name="ind-ndsbt.nfo" crc="7489D9AB" size="721"/>
+    <file name="ind-ndsbt.sfv" crc="E821F211" size="24"/>
+    <file name="NDS_Backup_Tool_3in1.ini" crc="65D37DF7" size="193"/>
+    <file name="NDS_Backup_Tool_3in1.nds" crc="E3333B0B" size="476224" bin="1"/>
+    <file name="NDS_Backup_Tool_Slot2.ini" crc="4F626307" size="634"/>
+    <file name="NDS_Backup_Tool_Slot2.nds" crc="1956E792" size="533568" bin="1"/>
+    <file name="NDS_Backup_Tool_Wifi.ini" crc="EB51B669" size="355"/>
+    <file name="NDS_Backup_Tool_Wifi.nds" crc="19474CD1" size="373312" bin="1"/>
+  </set>
+  <set name="NDS_EEPROM_TOOL-SaTa" smlname="NDS_Save_Thingymuhbobber" country="International" group="Independent">
+    <file name="ndseeprom.nds" crc="C9D2F5A0" size="118345" bin="1"/>
+    <file name="ndseeprom.txt" crc="F91DF4D5" size="8559"/>
+    <file name="ndseeprom_c.lzh" crc="8EFD3ED7" size="118902"/>
+  </set>
+  <set name="NDS_Header_Viewer_0.1_NDS-iND" smlname="akx-nhv" country="International" group="Independent">
+    <file name="akx-nhv.exe" crc="064263EE" size="46080"/>
+    <file name="akx-nhv.nfo" crc="44C7C5C2" size="2833"/>
+  </set>
+  <set name="NDS_Header_Viewer_0.3_NDS-iND" smlname="akx-nhv3" country="International" group="Independent">
+    <file name="akx-nhv3.exe" crc="AA8A1F77" size="62464"/>
+    <file name="akx-nhv3.nfo" crc="F966015B" size="2967"/>
+  </set>
+  <set name="NDS_IDA_Loader_Module-iND" smlname="nds_ida_loader_module" country="International" group="Independent">
+    <file name="bin/ida47/nds.ldw" crc="7CBFB6B6" size="45056"/>
+    <file name="readme.txt" crc="4A3A28E9" size="700"/>
+    <file name="src/nds.cpp" crc="2CD19D06" size="4903"/>
+    <file name="src/nds.h" crc="B890B665" size="3996"/>
+  </set>
+  <set name="NDS_Rom_Dumper_1.0-SMT" smlname="nds_rom_dumper_1.0-smt" country="International" group="Independent">
+    <file name="dumper.exe" crc="4100458C" size="16987"/>
+    <file name="dumper.nds.gba" crc="1B524F35" size="254464" bin="1"/>
+    <file name="dumper.txt" crc="1FBDC213" size="1069"/>
+  </set>
+  <set name="NDS_Rom_Dumper_1.1-SMT" smlname="NDS_Rom_Dumper_1.1-SMT" country="International" group="Independent">
+    <file name="dumper.cpp" crc="A9B006DE" size="1197"/>
+    <file name="dumper.exe" crc="4100458C" size="16987"/>
+    <file name="dumper.nds.gba" crc="C020BDAE" size="220233" bin="1"/>
+    <file name="dumper.txt" crc="46546E41" size="1425"/>
+    <file name="NDS_Rom_Dumper_1.1-SMT.nfo" crc="4F17A677" size="1461"/>
+  </set>
+  <set name="NDS_Top_System_0.1_BETA-WRG" smlname="pbeta" country="International" group="Wolf'n Road Group">
+    <file name="ndsts.exe" crc="0F770331" size="295936"/>
+  </set>
+  <set name="NDS_Top_System_0.2_NDS-WRG" smlname="NDSTS-v02-WRG" country="International" group="Wolf'n Road Group">
+    <file name="ndsts.exe" crc="FB228421" size="330240"/>
+  </set>
+  <set name="NeoFlash_Private_Source_2005-05-18_NDS-RXR" smlname="rxr-nfps" country="International" group="RXR">
+    <file name="file_id.diz" crc="FF201D2F" size="156"/>
+    <file name="rxr-nfps.nfo" crc="837F9726" size="1301"/>
+    <file name="sources.rar" crc="2B5F5131" size="3154971"/>
+  </set>
+  <set name="Nintendo_DS_August_2005_Chart-PocketHeaven" smlname="Nintendo_DS_August_2005_Chart-PocketHeaven" country="International" group="Independent">
+    <file name="ph-aug05.nfo" crc="030F0940" size="11235"/>
+  </set>
+  <set name="Nintendo_DS_Filesystem_Documents_HTML-LEETS" smlname="dsfshtml" country="International" group="Independent">
+    <file name="ds_fs.html" crc="773F45E6" size="11227"/>
+  </set>
+  <set name="Nintendo_DS_July_2005_Chart-PocketHeaven" smlname="Nintendo_DS_July_2005_Chart-PocketHeaven" country="International" group="Independent">
+    <file name="ph-jul05.nfo" crc="995E1FF4" size="15832"/>
+  </set>
+  <set name="Nintendo_DS_June_2005_Chart-PocketHeaven" smlname="Nintendo_DS_June_2005_Chart-PocketHeaven" country="International" group="Independent">
+    <file name="ph-jun05.nfo" crc="BE4B5D4E" size="24998"/>
+  </set>
+  <set name="Nintendo_DS_Memory_and_IO_Documents_HTML-LEETS" smlname="dsiohtml" country="International" group="Independent">
+    <file name="ds_mem.html" crc="006FE3C9" size="49018"/>
+  </set>
+  <set name="Nintendo_DS_September_2005_Chart-PocketHeaven" smlname="Nintendo_DS_September_2005_Chart-PocketHeaven" country="International" group="Independent">
+    <file name="ph-sept05.nfo" crc="35833384" size="13827"/>
+  </set>
+  <set name="Nintendo_NITRO_Documents_LEAKED_USA_PDF" smlname="NDSdocs" country="USA" group="DarkFader">
+    <file name="NDSdocs.nfo" crc="7A66F250" size="1255"/>
+    <file name="ndsng.pdf" crc="F9D067EB" size="2879102"/>
+    <file name="ndspm.pdf" crc="A3B6B17C" size="7780466"/>
+    <file name="ndstl.pdf" crc="25518A22" size="381908"/>
+  </set>
+  <set name="Nofmlite_READNFO_NDS-WRG" smlname="wrg-nofl" country="International" group="Wolf'n Road Group">
+    <file name="FILE_ID.diz" crc="7F79B6C9" size="396"/>
+    <file name="wrg-nofl.nds" crc="8A89419A" size="1584201" bin="1"/>
+    <file name="wrg-nofl.nfo" crc="EA732C96" size="32114"/>
+    <file name="wrg-nofl.png" crc="2CAC6D28" size="193256"/>
+  </set>
+  <set name="Pokemon.Diamond.Strategy.Guide.NDS.(iGN.com).Retail.eBook-MAGBUSTERS" smlname="mb-ign_pokemon_diamond_ds" country="USA" group="MAGBUSTERS">
+    <file name="mb-ign_pokemon_diamond_ds.nfo" crc="F2566F5A" size="7981"/>
+    <file name="mb-ign_pokemon_diamond_ds.pdf" crc="F48067A5" size="1219510"/>
+    <file name="mb-ign_pokemon_diamond_ds.sfv" crc="4A12167E" size="40" bin="1"/>
+  </set>
+  <set name="Pokemon.HeartGold.and.SoulSilver.Official.Guide.NDS-Unleashed" smlname="unl-phsg" country="" group="Unleashed">
+    <file name="Pokemon HeartGold &amp; SoulSilver Official Guide - Unleashed.pdf" crc="2F195070" size="76797735"/>
+    <file name="Unleashed.nfo" crc="80EA0773" size="5147"/>
+    <file name="unl-phsg.nfo" crc="80EA0773" size="5147"/>
+    <file name="unl-phsg.sfv" crc="933DB1E4" size="230"/>
+  </set>
+  <set name="Pokemon.Mystery.Dungeon.Explorers.of.Sky.Official.Game.Guide.NDS-Unleashed" smlname="unl-pmdn" country="USA" group="Unleashed">
+    <file name="Pokemon Mystery Dungeon - Explorers of Sky Official Game Guide - Unleashed.pdf" crc="44B25862" size="139490445"/>
+    <file name="Unleashed.nfo" crc="995A9DB3" size="4488"/>
+    <file name="unl-pmdn.sfv" crc="F57FAC44" size="138"/>
+  </set>
+  <set name="Pokemon.Platinum.Official.Game.Guide.NDS-Unleashed" smlname="unl-ppog" country="USA" group="Unleashed">
+    <file name="Pokemon Platinum Official Game Guide - Unleashed.pdf" crc="CB79136A" size="118060380"/>
+    <file name="unleashed.nfo" crc="6BD8DBA2" size="2221"/>
+    <file name="unl-ppog.sfv" crc="9905AB65" size="460"/>
+  </set>
+  <set name="Pokemon.Pocket.Pokedex.Volume.3.Official.Game.Guide.NDS-Unleashed" smlname="unl-ppp3" country="" group="Unleashed">
+    <file name="Pokemon Pocket Pokedex Volume 3 Official Game Guide - Unleashed.pdf" crc="C29ACCE9" size="54566041"/>
+    <file name="Unleashed.nfo" crc="E338DB79" size="3327"/>
+    <file name="unl-ppp3.nfo" crc="BA65BBBC" size="3327"/>
+    <file name="unl-ppp3.sfv" crc="FF7C74C9" size="161"/>
+  </set>
+  <set name="Resident.Evil.Deadly.Silence.Strategy.Guide.NDS.(iGN.com).Retail.eBook-MAGBUSTERS" smlname="mb-reds_ndsa" country="USA" group="MAGBUSTERS">
+    <file name="file_id.diz" crc="8DAC83C7" size="200"/>
+    <file name="mb-reds_nds.jpg" crc="BF53F72D" size="60883"/>
+    <file name="mb-reds_nds.nfo" crc="2AF6D6D1" size="8059"/>
+    <file name="mb-reds_NDS.rar" crc="57EE8B33" size="977242"/>
+    <file name="mb-reds_nds.sfv" crc="1A359AE3" size="28" bin="1"/>
+  </set>
+  <set name="Sonic.Chronicles.The.Dark.Brotherhood.Official.Game.Guide.NDS-Unleashed" smlname="unl-scbg" country="USA" group="Unleashed">
+    <file name="Sonic Chronicles The Dark Brotherhood Official Game Guide - Unleashed.pdf" crc="300DDF12" size="102599336"/>
+    <file name="unleashed.nfo" crc="A259B77E" size="2385"/>
+    <file name="unl-scbg.nfo" crc="A259B77E" size="2385"/>
+    <file name="unl-scbg.sfv" crc="A8B2D4E2" size="253" bin="1"/>
+  </set>
+  <set name="Star.Wars.Clone.Wars.Lightsaber.Duels.and.Jedi.Alliance.Official.Game.Guide.WII.NDS-Unleashed" smlname="unl-swcw" country="USA" group="Unleashed">
+    <file name="Star Wars - Clone Wars - Lightsaber Duels and Jedi Alliance Official Game Guide - Unleashed.pdf" crc="E1F72D5F" size="48738880"/>
+    <file name="unleashed.nfo" crc="F6611FB9" size="2440"/>
+    <file name="unl-swcw.nfo" crc="F6611FB9" size="2440"/>
+    <file name="unl-swcw.sfv" crc="6B63AFB6" size="161" bin="1"/>
+  </set>
+  <set name="Super.Scribblenauts.Official.Game.Guide.NDS-Unleashed" smlname="unl-ssgg" country="" group="Unleashed">
+    <file name="Super Scribblenauts Official Game Guide - Unleashed.pdf" crc="AC9EA333" size="24776793"/>
+    <file name="Unleashed.nfo" crc="EAA0E305" size="2943"/>
+    <file name="unl-ssgg.nfo" crc="EAA0E305" size="2943"/>
+    <file name="unl-ssgg.sfv" crc="7DE4FC69" size="92"/>
+  </set>
+  <set name="The.Legend.of.Spyro.A.New.Beginning.Official.Game.Guide.GBA.NDS.GAMECUBE.PS2.XBOX-Unleashed" smlname="unl-sanb" country="USA" group="Unleashed">
+    <file name="The Legend of Spyro - A New Beginning Official Game Guide - Unleashed.pdf" crc="3A4461C6" size="27638722"/>
+    <file name="unleashed.nfo" crc="7E44489B" size="2445"/>
+    <file name="unl-sanb.nfo" crc="7E44489B" size="2445"/>
+    <file name="unl-sanb.sfv" crc="A08EFB40" size="92" bin="1"/>
+  </set>
+  <set name="Universal_Patcher_V3.0-GST" smlname="Universal_Patcher_V3.0-GST" country="International" group="Golden Sun Team">
+    <file name="GST Universal Patcher V3.0/GST Universal Patcher V3.0.exe" crc="A017110C" size="13394"/>
+    <file name="GST Universal Patcher V3.0/GST Universal Patcher V3.0.nfo" crc="B038174B" size="7000"/>
+    <file name="Universal_Patcher_V3.0-GST.nfo" crc="B038174B" size="7000"/>
+  </set>
+  <set name="Wood_Dumper_r11_WORLD_READNFO_iNTERNAL_NDS-iND" smlname="ind-wdr11" country="" group="Independent">
+    <file name="ind-wdr11.nds" crc="E6DECC1E" size="212032" bin="1"/>
+    <file name="ind-wdr11.nfo" crc="2ACA3B15" size="2593"/>
+    <file name="ind-wdr11.sfv" crc="DCFFB0A1" size="24"/>
+  </set>
+  <set name="Wood_Dumper_Slot_2_r25_WORLD_READNFO_iNTERNAL_NDS-iND" smlname="ind-wdr25" country="" group="Independent">
+    <file name="ind-wdr25.nds" crc="18C5E7A8" size="231488" bin="1"/>
+    <file name="ind-wdr25.nfo" crc="6B8A12D9" size="3166"/>
+    <file name="ind-wdr25.sfv" crc="669CAA74" size="24"/>
+  </set>
+  <set name="WRG_Dumper_v1.4_NDS-WRG" smlname="wrg-dumper" country="International" group="Wolf'n Road Group">
+    <file name="wrg-dumper.nds.gba" crc="FC64553A" size="69204" bin="1"/>
+    <file name="wrg-dumper.nfo" crc="5E7C2812" size="19467"/>
+  </set>
+  <set name="WRG_Interal_Dumper_v1.3_M3CF_Version_NDS-WORTHINGTON" smlname="wrg-dump" country="International" group="Independent">
+    <file name="worthington.nfo" crc="AABF1D4E" size="470"/>
+    <file name="wrg-dump.ds.gba" crc="F37F382A" size="59220" bin="1"/>
+    <file name="wrg-dump.nfo" crc="1DC58270" size="6751"/>
+  </set>
+  <set name="Zelda.Phantom.Hourglass.Strategy.Guide.NDS.(iGN.com).Retail.eBook-MAGBUSTERS" smlname="mb-ign_zelda_phantom_hourglass_ds" country="USA" group="MAGBUSTERS">
+    <file name="mb-ign_zelda_phantom_hourglass_ds.nfo" crc="97C04C8F" size="7989"/>
+    <file name="mb-ign_zelda_phantom_hourglass_DS.pdf" crc="85283F5A" size="1057202"/>
+    <file name="mb-ign_zelda_phantom_hourglass_ds.sfv" crc="71523459" size="48" bin="1"/>
+  </set>
+</rdat>

@@ -1,0 +1,44 @@
+  1:res:='French';
+  2:res:='English';
+  4:res:='Chinese';
+  8:res:='Danish';
+  16:res:='Dutch';
+  32:res:='Finish';
+  64:res:='German';
+  128:res:='Italian';
+  256:res:='Japanese';
+  512:res:='Norwegian';
+  1024:res:='Polish';
+  2048:res:='Portuguese';
+  4096:res:='Spanish';
+  8192:res:='Swedish';
+  16384:res:='English (UK)';
+  32768:res:='Portuguese (BR)';
+  65536:res:='Korean';
+
+olregionlist.add('EU'); EUR
+olregionlist.add('US'); USA
+olregionlist.add('DE'); GERMAN
+olregionlist.add('CN'); CHINA
+olregionlist.add('ES'); SPAIN
+olregionlist.add('FR'); FRANCE
+olregionlist.add('IT'); ITALIA
+olregionlist.add('JP'); JAPAN
+olregionlist.add('NL'); NEDELANDS
+olregionlist.add('GB'); UK
+olregionlist.add('DK'); DENMARK
+olregionlist.add('FI'); FINLAND
+olregionlist.add('NO'); NORMAY
+olregionlist.add('PL'); POLAND
+olregionlist.add('PT'); PORTUGAL
+olregionlist.add('SE'); SWEDEN
+olregionlist.add('UE'); USA EUROPE
+olregionlist.add('JUE'); JAPAN USA EUROPE
+olregionlist.add('JU'); JAPAN USA
+olregionlist.add('AU'); AUSTRALIA
+olregionlist.add('KN'); NORTH KOREA
+olregionlist.add('BR'); BRAZIL
+olregionlist.add('KS'); SOUTH KOREA
+olregionlist.add('EUB'); EUR BRAZIL
+olregionlist.add('EBU'); EUR BRAZIL USA
+olregionlist.add('UB'); USA BRAZIL

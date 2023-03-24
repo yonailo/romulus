@@ -1,0 +1,331 @@
+unit Userver;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, Buttons, ExtCtrls, OleCtrls, SHDocVw, Activex, Uxtheme, Math,
+  ExceptionLog, ImgList, ComCtrls, StdCtrls, XPMan, ABSMain, DB, GR32_Image ;
+
+type
+  TFserver = class(TForm)
+    Panel1: TPanel;
+    SpeedButton1: TSpeedButton;
+    EurekaLog1: TEurekaLog;
+    Panel3: TPanel;
+    Bevel1: TBevel;
+    ImageList1: TImageList;
+    XPManifest1: TXPManifest;
+    DBdatabase: TABSDatabase;
+    Qsharedprofiles: TABSQuery;
+    SpeedButton3: TSpeedButton;
+    SpeedButton4: TSpeedButton;
+    Panel8: TPanel;
+    Image321: TImage32;
+    Panel9: TPanel;
+    Panel10: TPanel;
+    Image322: TImage32;
+    Panel4: TPanel;
+    Panel5: TPanel;
+    Panel6: TPanel;
+    Panel7: TPanel;
+    Panel13: TPanel;
+    ListView1: TListView;
+    Panel14: TPanel;
+    Panel2: TPanel;
+    PageControl1: TPageControl;
+    TabSheet1: TTabSheet;
+    Bevel3: TBevel;
+    TabSheet2: TTabSheet;
+    Bevel4: TBevel;
+    ListView2: TListView;
+    TabSheet3: TTabSheet;
+    Bevel5: TBevel;
+    PageControl2: TPageControl;
+    TabSheet4: TTabSheet;
+    Panel12: TPanel;
+    Panel17: TPanel;
+    SpeedButton2: TSpeedButton;
+    Edit1: TEdit;
+    RichEdit1: TRichEdit;
+    TabSheet5: TTabSheet;
+    Panel11: TPanel;
+    Panel15: TPanel;
+    Panel16: TPanel;
+    Panel18: TPanel;
+    Bevel2: TBevel;
+    Bevel6: TBevel;
+    Panel19: TPanel;
+    Panel20: TPanel;
+    procedure FormCreate(Sender: TObject);
+    procedure EurekaLog1ExceptionActionNotify(
+      EurekaExceptionRecord: TEurekaExceptionRecord;
+      EurekaAction: TEurekaActionType; var Execute: Boolean);
+    procedure SpeedButton1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure CreateParams(var Params: TCreateParams); override;
+    procedure DefaultHandler(var Message); override;
+  end;
+
+var
+  Fserver: TFserver;
+  Saved8087CW: Word;
+  NumMessage : UINT;// MESSAGE RECEIVER
+
+implementation
+
+{$R *.dfm}
+
+//-BUGFIX FUNCTIONS------------------------------------------------------------
+
+procedure DisableProcessWindowsGhosting;
+var
+  DisableProcessWindowsGhostingProc: procedure;
+begin
+try
+  DisableProcessWindowsGhostingProc := GetProcAddress(
+    GetModuleHandle('user32.dll'),
+    'DisableProcessWindowsGhosting');
+  if Assigned(DisableProcessWindowsGhostingProc) then
+    DisableProcessWindowsGhostingProc;
+except
+end;
+end;
+
+//----HINT STYLES--------------------------------------------------------
+
+type
+  THintStyle = (hsXP, hsVista);
+
+type
+   TMyHintWindow = class(THintWindow)
+   private
+    FBitmap: TBitmap;
+    FRegion: THandle;
+    procedure FreeRegion;
+   protected
+    procedure CreateParams (var Params: TCreateParams); override;
+    procedure Paint; override;
+    procedure Erase(var Message: TMessage); message WM_ERASEBKGND;
+   public
+     constructor Create(AOwner: TComponent); override;
+     destructor Destroy; override;
+     procedure ActivateHint(Rect: TRect; const AHint: String); Override;
+   end;
+
+
+constructor TMyHintWindow.Create(AOwner: TComponent);
+begin
+  inherited Create(AOwner);
+  FBitmap := TBitmap.Create;
+  FBitmap.PixelFormat := pf24bit;
+end;
+
+destructor TMyHintWindow.Destroy;
+begin
+  FBitmap.Free;
+  FreeRegion;
+  inherited;
+end;
+
+procedure TMyHintWindow.CreateParams(var Params: TCreateParams);
+const
+  CS_DROPSHADOW = $20000;
+begin
+  inherited;
+  Params.Style := Params.Style - WS_BORDER;
+  Params.WindowClass.Style := Params.WindowClass.style or CS_DROPSHADOW;
+end;
+
+procedure TMyHintWindow.FreeRegion;
+begin
+  if FRegion <> 0 then
+  begin
+    SetWindowRgn(Handle, 0, True);
+    DeleteObject(FRegion);
+    FRegion := 0;
+  end;
+end;
+
+procedure TMyHintWindow.ActivateHint(Rect: TRect; const AHint: String);
+var
+vista7hint:boolean;
+begin
+  vista7hint:=false;
+
+  if (Win32MajorVersion>=6) AND (isthemeactive=true) then
+    vista7hint := true;
+
+  Caption := AHint;
+  Canvas.Font := Screen.HintFont;
+
+  FBitmap.Canvas.Font := Screen.HintFont;
+  DrawText(Canvas.Handle, PChar(Caption), Length(Caption), Rect, DT_CALCRECT  or DT_NOPREFIX);
+
+  if vista7hint=true then begin
+    Width := (Rect.Right - Rect.Left) + 16;
+    Height := (Rect.Bottom - Rect.Top) + 10;
+  end
+  else begin
+    Width := (Rect.Right - Rect.Left) + 10;
+    Height := (Rect.Bottom - Rect.Top) + 6;
+  end;
+
+  FBitmap.Width := Width;
+  FBitmap.Height := Height;
+
+  //FIX OUT OF SCREEN HINT
+  if FBitmap.Width+rect.Left>Screen.Width then begin
+    Left := Rect.Left - ((FBitmap.Width+rect.Left)-Screen.Width);
+    top:= Rect.Top;
+  end
+  else begin
+    Left := Rect.Left;
+    Top := Rect.Top;
+  end;
+
+  FreeRegion;
+
+  if vista7hint=true then begin
+    with Rect do
+      FRegion := CreateRoundRectRgn(1, 1, Width, Height, 3, 3);
+    if FRegion <> 0 then
+      SetWindowRgn(Handle, FRegion, True);
+
+    //AnimateWindowProc(Handle, 300, AW_BLEND);
+  end;
+
+  SetWindowPos(Handle, HWND_TOPMOST, Left, Top, 0, 0, SWP_SHOWWINDOW or SWP_NOACTIVATE or SWP_NOSIZE);
+end;
+
+procedure DrawGradientVertical(Canvas: TCanvas; Rect: TRect; FromColor, ToColor: TColor);
+var
+  i, Y: Integer;
+  R, G, B: Byte;
+begin
+   i := 0;
+   for Y := Rect.Top to Rect.Bottom - 1 do
+   begin
+      R := GetRValue(FromColor) + Ceil(((GetRValue(ToColor) - GetRValue(FromColor)) / Rect.Bottom-Rect.Top) * i);
+      G := GetGValue(FromColor) + Ceil(((GetGValue(ToColor) - GetGValue(FromColor)) / Rect.Bottom-Rect.Top) * i);
+      B := GetBValue(FromColor) + Ceil(((GetBValue(ToColor) - GetBValue(FromColor)) / Rect.Bottom-Rect.Top) * i);
+      Canvas.Pen.Color := RGB(R, G, B);
+      Canvas.MoveTo(Rect.Left, Y);
+      Canvas.LineTo(Rect.Right, Y);
+      Inc(i);
+   end;
+end;
+
+procedure TMyHintWindow.Paint;
+var
+  CaptionRect: TRect;
+  vista7hint: boolean;
+begin
+  vista7hint:=false;
+
+  if (Win32MajorVersion>=6) AND (isthemeactive=true) then
+    vista7hint := true;
+
+  if vista7hint=true then begin
+
+    DrawGradientVertical(FBitmap.Canvas, GetClientRect, RGB(255, 255, 255),  RGB(229, 229, 240));
+
+    with FBitmap.Canvas do
+    begin
+      Font.Color := clGray;
+      Brush.Style := bsClear;
+      Pen.Color := RGB(118, 118, 118);
+      RoundRect(1, 1, Width - 1, Height - 1, 6, 6);
+      RoundRect(1, 1, Width - 1, Height - 1, 3, 3);
+    end;
+
+    CaptionRect := Rect(8, 5, Width, Height);
+
+  end
+  else begin
+
+    with FBitmap.Canvas do
+    begin
+      Font.Color := clBlack;
+      Brush.Style := bsSolid;
+      Brush.Color := clInfoBk;
+      Pen.Color := RGB(0, 0, 0);
+      Rectangle(0, 0, Width, Height);
+    end;
+
+    CaptionRect := Rect(5, 3, Width, Height);
+
+  end;
+
+  DrawText(FBitmap.Canvas.Handle, PChar(Caption), Length(Caption), CaptionRect, DT_WORDBREAK or DT_NOPREFIX);
+  BitBlt(Canvas.Handle, 0, 0, Width, Height, FBitmap.Canvas.Handle, 0, 0, SRCCOPY);
+end;
+
+procedure TMyHintWindow.Erase(var Message: TMessage);
+begin
+  Message.Result := 0;
+end;
+
+//-CREATE OWN CLASSNAME--------------------------------------------------------
+
+procedure TFserver.CreateParams(var Params: TCreateParams);
+begin
+  inherited CreateParams(Params);
+  Params.WinClassName :='@RMLSRV@';
+end;
+
+//-MESSAGE RECEIVER
+
+procedure TFserver.DefaultHandler(var Message);
+Var
+  nAtom : Word;
+  PCharBuffer:array[0..254]of Char;
+  msg:ansistring;
+begin
+  inherited DefaultHandler(Message);
+  if TMessage(Message).Msg = NumMessage then
+  begin
+
+    nAtom:=TMessage(Message).WParam;
+
+    if GlobalGetAtomName(nAtom, PCharBuffer, SizeOf(PCharBuffer))<>0
+                       then begin
+                        msg:=String(PCharBuffer);
+
+                        if msg='P' then begin
+                          Qsharedprofiles.Close;
+                          Qsharedprofiles.Open;
+                        end;
+
+                       end
+                       else edit1.Text:='';
+  end;
+end;
+procedure TFserver.FormCreate(Sender: TObject);
+begin
+OleInitialize(nil); //BUGFIX for XP SP2-3 Opendialog crash when hint files
+DisableProcessWindowsGhosting; //BUG MODAL WINDOWS FIX SINCE WIN2000/XP  //BUG MAKER ???
+Saved8087CW := Default8087CW;
+Set8087CW($133F); { Disable fpu exceptions for webbrowser floating operation error fix}
+HintWindowClass := TMyHintWindow; //GENERATE HINT STYLES
+//CurrentEurekaLogOptions.AutoCrashOperation:=tbnone; //DONT RESTART AFTER 10 EXCEPTIONS
+NumMessage:=RegisterWindowMessage('ROMULUS_SRV');
+end;
+
+procedure TFserver.EurekaLog1ExceptionActionNotify(
+  EurekaExceptionRecord: TEurekaExceptionRecord;
+  EurekaAction: TEurekaActionType; var Execute: Boolean);
+begin
+execute:=false;//SILENT EXCEPTION
+end;
+
+procedure TFserver.SpeedButton1Click(Sender: TObject);
+begin
+DBdatabase.ReadOnly:=false;
+DBdatabase.Connected:=true;
+end;
+
+end.

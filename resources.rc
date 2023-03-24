@@ -1,0 +1,24 @@
+1 RCDATA  RAR.exe //5.50
+2 RCDATA  7Z.exe //"16.02version no deletion 7z files bug, now testing 16.04" 
+3 RCDATA  7z.dll //
+4 RCDATA  trrntzip.exe
+5 RCDATA  chdman.exe //0.174
+6 RCDATA  RAR64.exe //5.50
+7 RCDATA  7z64.exe //
+8 RCDATA  7z64.dll //
+9 RCDATA  chdman64.exe //0.174
+10 RCDATA unrar.dll //INTERNAL ROMULUS RAR DATA NEEDED TO READ RAR FILES 4.10 FROM RARHOMEPAGE
+11 RCDATA t7z.exe // 0.9.2
+12 RCDATA msvcr71.dll //NEEDED FROM T7Z
+13 RCDATA info.png //WB DEFAULT IMAGE
+14 RCDATA error.png //WB ERROR IMAGE
+15 RCDATA traduction.txt
+16 RCDATA segoeui.ttf
+17 RCDATA segoeuib.ttf
+18 RCDATA 7zd.exe //9.20 Old versions for delete
+19 RCDATA 7zd.dll //
+20 RCDATA 7zd64.exe //
+21 RCDATA 7zd64.dll //
+22 RCDATA mainicon.ico
+23 RCDATA mailicon.ico
+24 RCDATA cmdpatched.exe // FIX CMD FOR XP AND VISTA
